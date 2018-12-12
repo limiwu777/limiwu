@@ -1,0 +1,110 @@
+*{
+			box-sizing: border-box;
+			-moz-box-sizing:border-box;
+			-webkit-box-sizing:border-box;
+		}
+		body{
+			margin: 0px;
+			font-family: Arial,sans-serif;
+		}
+		#header{
+			width: 100%;
+			height: 80px;
+			background-color: #333333;
+		}
+		#header-wrap{
+			width: 960px;
+			margin: 0 auto;
+		}
+		#logo{
+			height: 80px;
+			line-height: 80px;
+			float: left;
+			color: white;
+			font-size: 24px;
+		}
+		#logoin{
+			float: right;
+			margin-top: 10px;
+		}
+		#logoin a{
+			color: white;
+		}
+		#banner{
+			width:100%;
+			height: 300px;
+			background-color: #66BB33;
+		}
+		#pages{
+			width: 960px;
+			margin: 0 auto;
+			position: relative;
+			top: 250px;
+            text-align: right;
+		}
+		#banner #pages span{
+			padding: 10px;
+			border:1px solid black;
+			background-color: #A7E094;
+            color: gray;
+		}
+		#banner #pages .active{
+			background-color: #E0F2D3;
+			padding-top: 25px;
+		}
+		#nav{
+			height: 70px;
+			border-bottom: 1px solid #CCCCCC;
+			margin: 0px;
+		}
+		#nav ul{
+			width: 960px;
+			margin: 0 auto;
+			list-style-type: none;
+			position: relative;
+			top: 20px;
+
+		}
+		#nav li{
+			float: left;
+			height: 50px;
+			padding: 15px 20px;
+			margin: 0;
+			border-top: 1px solid #CCCCCC;
+            border-left: 1px solid #CCCCCC;
+            border-right: 1px solid #CCCCCC;
+            border-top-left-radius: 16px;
+            border-top-right-radius: 16px;
+            text-align: center;
+            background-color: #EEEDEB;
+		}
+		#nav .active{
+			background-color: white;
+            border-bottom: 1px solid white;
+		}
+		#content{
+			width: 960px;
+			height: 100%;
+			margin: 0 auto;
+		}
+		#content section{
+			display: flex;
+			flex-wrap:wrap;
+		}
+		#content div{
+			border:1px solid #CCCCCC;
+			margin: 5px;
+			padding: 80px;
+			text-align: center;
+		}
+		 #content div{
+		 	flex:1;
+		 }
+        #footer{
+        	height: 120px;
+        	width: 100%;
+        	background-color: #666666;
+            color: white;
+            text-align: center;
+            line-height: 120px;
+        }
